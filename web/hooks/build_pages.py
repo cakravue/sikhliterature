@@ -102,3 +102,25 @@ def on_files(files, config):
     for f in add:
         files.append(f)
     return files
+
+
+def on_nav(nav, config, files):
+    '''Name each section from contents.yml rather than from its folder name,
+    so the sidebar reads 'Bhagat Mala', not 'Bhagat mala'.'''
+    titles = {}
+    for text in _load():
+        titles[text['slug']] = text['title']
+        for div in text['divisions']:
+            titles[div['slug']] = div['title']
+
+    def walk(items):
+        for item in items:
+            children = getattr(item, 'children', None)
+            if children:
+                key = str(item.title).lower().replace(' ', '-')
+                if key in titles:
+                    item.title = titles[key]
+                walk(children)
+
+    walk(nav.items)
+    return nav
