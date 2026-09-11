@@ -15,10 +15,10 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install mkdocs-material
-      - run: mkdocs build -f ss10-site/mkdocs.yml
+      - run: mkdocs build -f web/mkdocs.yml
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ss10-site/site
+          path: web/site
   deploy:
     needs: build
     runs-on: ubuntu-latest
