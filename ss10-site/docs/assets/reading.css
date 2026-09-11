@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Gurmukhi:wght@400;600&display=swap');
+
+/* Gurmukhi falls back per-glyph to Noto Serif Gurmukhi; English stays Lora. */
+:root {
+  --md-text-font: "Lora", "Noto Serif Gurmukhi", Georgia, serif;
+}
+
+/* Long-form reading: narrower measure, more air between lines. */
+.md-content__inner {
+  max-width: 42rem;
+  margin: 0 auto;
+  font-size: 1.02rem;
+  line-height: 1.85;
+}
+
+/* The Sri Mukhvaak blocks. */
+.md-typeset blockquote {
+  border-left: 3px solid var(--md-accent-fg-color);
+  background: var(--md-code-bg-color);
+  padding: 0.8rem 1.2rem;
+  border-radius: 2px;
+}
+.md-typeset blockquote h3 { margin-top: 0; font-size: 0.95rem; letter-spacing: 0.04em; }
+
+/* Verse numbers and colophon sit quieter than the prose. */
+.md-typeset hr + p em { color: var(--md-default-fg-color--light); }
+
+/* Footnote markers and their popup. */
+.md-typeset .footnote-ref { text-decoration: none; font-weight: 600; }
+.md-typeset .footnote-ref.fn-open { background: var(--md-accent-fg-color); color: #fff; border-radius: 3px; }
+.fn-popup {
+  position: absolute;
+  z-index: 30;
+  max-width: min(26rem, calc(100vw - 24px));
+  padding: 0.7rem 0.95rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 3px solid var(--md-accent-fg-color);
+  border-radius: 3px;
+  box-shadow: 0 6px 24px rgba(0,0,0,.18);
+}
+.fn-popup p { margin: 0; }
+.fn-popup p + p { margin-top: .5rem; }
