@@ -283,13 +283,6 @@ Description of the Episode of Giving the Guruship to Sri Arjan."*
 
 ---
 
-### Notes
-
-**[BVS]** marks a footnote by Bhai Vir Singh, printed in the source edition and translated here for
-reference. These are a later editor's commentary, not part of Kavi Santokh Singh's 1843 text, and
-they have **not** been used to settle the meaning of any disputed line. **Variant** marks a reading
-recorded in the source (ਪਾ: = ਪਾਠ). Unmarked notes identify people, places and terms only.
-
 [^1]: **v. 1** "the Elder": Baba Buddha Ji, so called throughout this ansu (ਬ੍ਰਿਧ / ਬ੍ਰਿੱਧ). Capitalised where it designates him; lowercase where the word simply means an aged person.
 [^2]: **v. 1** anand: bliss.
 [^3]: **v. 2** That is, Bhai Buddha has seen it. [BVS]
