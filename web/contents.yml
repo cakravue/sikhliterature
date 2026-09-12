@@ -23,6 +23,14 @@ texts:
       - {slug: ras-6, title: "Ras 6", from: 1, to: 58}
       - {slug: ras-7, title: "Ras 7", from: 1, to: 54}
       - {slug: ras-8, title: "Ras 8", from: 1, to: 58}
+      - {slug: rut-1, title: "Rut 1", from: 1, to: 51}
+      - {slug: rut-2, title: "Rut 2", from: 1, to: 50}
+      - {slug: rut-3, title: "Rut 3", from: 1, to: 51}
+      - {slug: rut-4, title: "Rut 4", from: 1, to: 51}
+      - {slug: rut-5, title: "Rut 5", from: 1, to: 52}
+      - {slug: rut-6, title: "Rut 6", from: 1, to: 58}
+      - {slug: ayan-1, title: "Ayan 1", from: 1, to: 51}
+      - {slug: ayan-2, title: "Ayan 2", from: 1, to: 36}
 
   - slug: panth-prakash
     title: Panth Prakash
