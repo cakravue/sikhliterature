@@ -2,13 +2,13 @@
 ## The sakhi of the first origin of the Khalsa
 ### (panth khātar gur itī kamāī: so much did the Guru earn for the Panth)
 
-> *ik oaṅkār satigur prasādi.*\
-> One Being; realised by the grace of the True Guru.
->
-> *srī vāhigurū jī kī fatahi hai.*\
-> The victory is Sri Waheguru ji's.
->
-NOW BEGINS: SRI GUR PANTH PRAKASH GRANTH.
+*ik oaṅkār satigur prasādi.*\
+One Being; realised by the grace of the True Guru.
+
+*srī vāhigurū jī kī fatahi hai.*\
+The victory is Sri Waheguru ji's.
+
+_NOW BEGINS: SRI GUR PANTH PRAKASH GRANTH._
 
 I bow at the feet of Sri Guru Nanak and hold Guru Gobind Singh in my mind. I am setting out to write how the Khalsa came into being; put out your own hand and help me through it.[^1]
 
