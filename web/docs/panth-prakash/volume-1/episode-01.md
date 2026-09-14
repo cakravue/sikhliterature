@@ -8,8 +8,7 @@
 > *srī vāhigurū jī kī fatahi hai.*\
 > The victory is Sri Waheguru ji's.
 >
-> *ath.*\
-> Now it begins.
+NOW BEGINS: SRI GUR PANTH PRAKASH GRANTH.
 
 I bow at the feet of Sri Guru Nanak and hold Guru Gobind Singh in my mind. I am setting out to write how the Khalsa came into being; put out your own hand and help me through it.[^1]
 
