@@ -1,297 +1,185 @@
-# Ras 2, Ansu 22
+# Ras 2, Ansu 24
 
-## The Guruship given to Sri Arjan Ji; the fourth pad of the shabad composed
+## Sri Guru Ram Das Ji goes to Baikunth
 
 *Dohra*
 
-Hearing the Elder's words, anaṅd rose in the Satguru's heart. *He has praised him, and so Sri Arjan
-has become the moon of the lineage.*[^1]
+Seeing the Satguru's preparation, Bhani, greatly fortunate, folded her hands and made her bandan, and
+love welled up in her heart.[^1]
 
 *Chaupai*
 
-*For many days now the Guruship has been carried on, and in that time he has gained the eye that
-tells substance from worthlessness. When the chief jeweller appraises the jewel, then it becomes
-known to the world.*[^2]
+"You are able in every way, giver of sukh. Only the greatly fortunate know you. Be my help in this
+world and the next, and arrange it as you wish, Gusain.[^2] Let me go with you. Without you I will
+not keep my hold on life. Attachment and aversion, great joy and grief: to live in this world is to
+live joined to these.[^3] My son Prithia will raise trouble, and seeing it my mind will take pain.
+Your dwelling is in the greatest anaṅd. Let me dwell there with you, and put my care away."[^4]
 
-A shrīfal and five paise were sent for, and Sikhs were called in from wherever they were. The whole
-saṅgat gathered, and closed around him on all four sides.[^3] Everyone was watching. *What will he
-do? Will he hold anger in his heart against the eldest son?* Then Sri Ram Das rose, and took the
-shrīfal and the paise in his hand.[^4] He made three pardakshan, recognising his son Sri Arjan as
-worthy. He set them down before him and touched his forehead to the ground. There was great anaṅd,
-an ocean of bibek.[^5]
+Hearing this tender speech from Bhani, Ram Das the Satguru spoke. "Listen, woman of great fame,
+greatly fortunate. There is no other woman equal to you.[^5] Her father is Sri Guru Amar Das: who can
+be called her equal? And I have been pleased with you throughout; whatever word you say, I
+accept.[^6] Sri Arjan has proved a capable son, and he has made the Sodhi lineage bright. He has kept
+the seniority of the Guruship where it belongs, and kept it from passing to another house.[^7]
 
-Then, at the Satguru's command, Buddha rose, gladdened in heart, and with his own hand applied the
-tilak well on that fine forehead, which was filled with fortune.[^6]
+"Your birth in the world has borne its fruit, and all that was fitting to do you have done. Some days
+of breath remain in your body; hold patience, and live out your prārabdh.[^8] Then leave the body at
+ease, and come and meet me, fortunate one. Joy and grief, attachment and aversion: from now on let
+none of these be in you at all."[^9] Having given her this comfort, a treasury of ease, he looked
+toward Buddha and Gurdas, and commended Sri Arjan to them all, the Guru, the tilak of the Sodhi
+lineage.[^10]
 
-The Satguru spoke his word to them all. "Listen, Sikhs: you are all dear to the Guru. Look on Sri
-Arjan as my own form; as you regard me, so hold him in your heart.[^7] He is settled on the seat of
-Guruship, and the whole burden of this world and the next is laid on him. He will carry the
-saṅgat's suffering across, and accomplish many works in the world.[^8] Rise, all of you, and make
-your bandan to him. Give offerings of every kind."
+He settled himself on a seat of kusha grass, lay down, and covered his face. As an elephant casts off
+a garland of flowers, so he left the body and went to Baikunth.[^11]
 
-Hearing the Satguru's words they rejoiced, and called out "Jai! Jai!" aloud.[^9] Each man set gifts
-before him as his means allowed, and bowed with folded hands. There was celebration among all the
-Sikhs, and Sri Arjan was seen as the rising sun.[^10]
+Out in front came the devtās, all the foremost of them, and Brahma, Narad and Shambhu shone there. A
+vast light filled the sky, and there were many bimāns, bright with strings of jewels.[^12] Dhanad and
+Barun came, and all the guardians of the worlds, and countless devtās came in that instant. The cry
+"Jai! Jai!" rose among them, and they raised a clamour, looking on at the maṅgal.[^13] They held
+celebration of many kinds, filling their cupped hands with flowers again and again and casting them
+down. A great fragrance spread everywhere, and men and women were astonished at the sight.[^14]
 
-The servants, a multitude of lotuses, opened; the seekers, a swarm of bees, were delighted. But the
-hope in the hearts of Mahadev and Prithi, that night thick with the darkness of bhram, was
-destroyed.[^11] Their partisans, like stars, were hidden away, and the slanderers, owls, shut their
-eyes and their mouths. Prithi Chand's brightness, which had been like the moon's, went pale and dim
-in that very instant.[^12] He burned up, taking great pain; he bent his neck, and nothing was in his
-power. Mahadev stayed silent and unmoved, and made neither joy nor grief in his heart.[^13]
+A multitude of people stood by the baoli, and the saṅgat heard and came surging in. "Blessed is the
+Guru; his state cannot be known." The mine of virtues had left the body at his own will.[^15] A
+wailing arose among them all, and the company of loving Sikhs wept, remembering the Guru's updesh
+over and over. "After me let there be not a trace of grief.[^16] Read, do kirtan of Sri Satnam;
+gather together, all of you, and do bhajan." The wise Sikhs restrained them, speaking to them and
+repeating the Guru's own words.[^17]
 
-Hearing it, the mother felt herself greatly fortunate. *Arjan has become Guru.* Her delight was
-great. Remembering her father's words she found ease. *The Guruship will not pass out of the
-lineage.*[^14] *What my father the Guru said is unshakeable. Sumeru may move; that will not move.*
+Bhani took patience, but it would not hold. She sat close beside her husband. On one side, near at
+hand, were her two brothers; on the other side sat Sri Arjan, burning.[^18]
 
-Then, in the assembly, Sri Satguru sat, the whole saṅgat on all four sides.[^15] Looking toward his
-son Sri Arjan, he spoke his word, his mind especially glad. "A shabad has four pads in all. Three
-are made; one is wanted now.[^16] Compose a fine pad here beside me. Bring the shabad to its bhog,
-holding your mind steady, one that many Sikhs in the world will read and hear, and take great joy
-in."[^17]
+They kept silence, astonished in heart. Buddha rose and spoke. "How will sitting serve at this hour?
+Do the great work that is fitting.[^19] That was the last darshan of the Guru. You have seen and you
+have heard, and you have taken your bow. Now his body must be cremated. Sri Arjan, be ready.[^20]
 
-The Elder, made glad, said, "The Satguru's word is fitting indeed." Sri Arjan, hearing it at that
-moment, bowed to his father and composed the pad.[^18]
+"Gather everything together. Bring all the Sikhs and the saṅgat into one assembly. Have many flowers
+made of gold. Fetch barley, sesame, chandan and ghee.[^21] Build a bimān, sparing no wealth. Bring
+woollen cloth of great price. Have men gather wood and carry it, and have it delivered to the bank of
+the Bipasha,[^22] where Sri Amar Das's mandir stands. That place is beautiful, and it pleases
+everyone."
 
-> *Sri Guru Granth Sahib, Raag Majh, Mahalla 4; Ang 96 to 97. The fourth pad, by Sri Guru Arjan Dev
-> Ji, completing Guru Ram Das Ji's shabad "merā man lochai gur darsan tāīṅ".*
->
-> bhāg hoā gur sant milāiā\
-> Good fortune came, and the Guru brought me to the Sant.
->
-> prabh abināsī ghar meh pāiā\
-> I found the imperishable Prabhu within my own house.
->
-> sev karī pal chasā na vichhuṛā jan nānak dās tumāre jīu 4\
-> I do seva, and am not parted from you for a moment, not for an instant; Nanak your servant, your slave.
->
-> hau gholī jīu ghol ghumāī jan nānak dās tumāre jīu rahāu 1 8\
-> I am a sacrifice, my soul a sacrifice; Nanak your servant, your slave.
+Hearing the Elder, they rose that instant, and Mohri at once took a company of men.[^23] He set groups
+of men to one seva each, telling every one of them where to stand; then he came himself and joined
+the Elder, and joined with Sri Arjan too.[^24] With dahī they washed the hair thoroughly, and bathed
+every limb in clean water. Fine new clothes were made ready, and put on the whole body.[^25]
 
-*Chaupai*
+By then a beautiful bimān had come, finely made, with cloth stretched over it. Great garlands of
+flowers were made, and hung from it on all four sides.[^26] They sprinkled a great fragrance over it,
+brought it, and set it down at that place. Then they lifted the Satguru and laid him in it, and put
+the woollen cloth over him.[^27]
 
-Sri Guru Ram Das was gladdened to hear it. *He will compose much bāṇī*, so he judged. He saw the
-making of it was fine and clear, and it was composed at once, with no delay taken.[^19] From his own
-mouth he instructed his son. "Make the shabad with humility, so that whoever reads it, hears it and
-reflects on it has his hankār taken away, and his vices with it."[^20]
+The Sikhs and the saṅgat gathered in a crowd and rained down handfuls of flowers. A loud cry of "Jai
+Jaikar" went up, and it was as though one were looking at a bimān of the heavens.[^28] They put Sri
+Arjan in front. They lifted it and set it on their shoulders, making their own lives greatly fruitful,
+and a throng of Sikhs went along with the bimān.[^29]
 
-Hearing his father's words with folded hands, he became wholly submissive and made his bandan. "You
-alone are the doer and the cause of doing. I follow always as you say."[^21]
+Flowers made of gold were mixed in with lājā and showered down. Much other wealth besides was cast
+over it, and they called out, "Blessed is Sri Satguru Ji."[^30] The rabābīs, who could recite in deep
+vairāg, sang shabads then; and when they stood and set a pauṛī going, people went up to them and gave
+them wealth.[^31] Thousands walked along with the saṅgat, casting lājā, flowers and wealth. Beautiful
+chaurs waved on both sides, so white that they might have been swans.[^32]
 
-The assembly rose, and each reached his own place saying, "This is good." Prithia met with
-Bhai the Elder. He was burning, and nothing was in his power.[^22]
+Doing this they reached the place where Sri Guru Amar Das's dehura stands. Their love for Sri Satguru
+was great, and water fell from every eye.[^33]
 
-"Listen, Buddha. We knew you. We held your greatness equal to Guru Nanak's. Such has my mind been
-until today. No shardhā remains now, having seen what you did.[^23] You stayed with the Satguru
-through it all, and you watched the whole account from the beginning. I am the eldest, and fully
-capable besides. The Guruship after my father was rightly mine.[^24] Of this you considered nothing.
-You have grown old, and the strength of your mind has failed. My father was Guru in name alone; I
-ran the greater part of the affairs.[^25]
+They set it down by the bank of the Bipasha, and crowds closed round on all four sides. A multitude
+of conches sounded, many times over. All together they made the pyre ready there.[^34] They built it
+high with much chandan and laid the Satguru's body within. Sri Arjan took fire in his hand and set it
+there, weeping as he did.[^35]
 
-"You know my competence in every kind of matter. The whole saṅgat took me for the Guru. What is this
-deed you have suddenly done? You rose and gave the tilak at once.[^26] If I overturn it by my own
-strength, what honour of yours will be left? There was never any mention of this before. Why did you
-do so improper a thing so suddenly?[^27] If my father, in anger, resolved on this, and agreed to
-follow an improper practice, even then it was fitting for you to counsel him and speak good
-sense:[^28] 'This right belongs to the eldest son, and he is fully capable in every way besides. All
-the father's affairs pass through him, and he manages them with a generous good sense.'[^29]
+When the Satguru's son wept aloud, Bhani and all the rest looked on. Overcome with love they let
+their tears fall, and the minds of all were steeped in grief.[^36] They wiped their faces with their
+clothes; the faces were drenched, and water ran from the eyes. The Elder saw those eyes and spoke.
+"Why do you not remember the Satguru's own words?[^37]
 
-"Saying such things you should have counselled him, and kept the Guruship from the younger son. That
-was the proper course for you. Then every mind would have thought you wise.[^30] That good thing you
-did not do. You rose and gave the tilak on the instant. Will they not condemn what you did, the wise
-Sikhs within the saṅgat?[^31] I have seen your conduct. They call you a man of sense, and you have
-done an unseemly thing. Now I will make constant effort. I will snatch the seat away from him.[^32] I
-will spend wealth in quantity and take it. What all of you have done, I will now overturn."
+"After him, hold anaṅd: kathā, kirtan, bhajan of Mukand, by which the good of all comes about. This is
+what those who love him rightly do."[^38]
 
-The Elder said, "Why hold anger in your heart? You put no love into your father's seva.[^33] Had he
-been pleased he would have given it to you unasked, had he seen you worthy of it. By backbiting it
-will not come to hand. Take hold of humility, and you get what you want.[^34] You did not properly
-accept your father's word. That is why the tilak was not yours. You are a Guru's son; great is your
-greatness; you are worthy of honour. What of it, if it did not come to hand?[^35] Leave anger and
-quarrelling, and find ease. As your father does, so gladden your heart. He is master of faith and of
-the world. Who can answer back to his face?"[^36]
+Speaking so to them all, he gave them patience. They were dejected in mind, deep under grief. Sri
+Arjan, capable, accepted it in his mind; he rose, and then performed the kapal kriya.[^39]
 
-Saying this, the Elder held his mouth in silence. Prithia went and entered the house. Speaking harsh
-words, holding his anger, he went before his father, heavy with grievance.[^37]
+The Guru's body was well cremated. Seeing the beautiful bank of the Bipasha, they put Sri Arjan in
+front, and came and bathed in the clean water.[^40] With the Elder he gave the tilāñjul, remembering
+his father's name and performing the rite. Slowly all came back to the town, and went and sat by the
+baoli.[^41]
 
-From his mouth he began to speak bitter words. "What contrary thing have you resolved on? You gave
-what is mine to the younger. Who does such a thing? It has not happened before.[^38] You did it
-thinking ill of me. What fault did you see, that you cast me aside? The way you have dealt with me,
-you will see the fruit of it in what comes.[^39] Wealth in quantity is close at hand for me now. I
-will join with whichever king is powerful. By giving him wealth I will make him my own, and show you
-suffering, father and son both.[^40] When nothing at all is in your power, the Guruship will be mine
-without my lifting a hand."
+A great multitude of people, calling the Guru's many virtues to mind again and again, spoke his
+praise much among themselves. "He took a body for the sake of parupkār.[^42] As, for the good fortune
+of the world, clouds appear in the sky and let fall streams of water, and having done good to all
+dissolve again, so the Satguru takes a body and comes into the world.[^43] Having brought about the
+good of the Sikhs, he goes again to the place of Baikunth." Saying such things over and over, the
+wise Sikhs looked again and again toward Sri Arjan.[^44]
 
-He raised much quarrelling of this kind. Upon this, Sri Guru uttered a shabad.[^41]
+Bhani met again and again with her sisters in law, and many other women came walking up. All of them
+wept over and over, turning the Satguru's virtues in their minds again and again.[^45] Bhani took
+patience into her heart, and went on taking it, holding the Guru's form before her mind. She made her
+mind calm and grew steady, resting on the dhyān of her husband.[^46]
 
-> *Sri Guru Granth Sahib, Raag Sarang, Mahalla 4, Ghar 3, Dupada; Ang 1200.*
->
-> kāhe pūt jhagrat hau saṅg bāp\
-> Why do you quarrel with your father, son?
->
-> jin ke jaṇe badīre tum hau, tin siu jhagrat pāp 1 rahāu\
-> He fathered you and brought you up; to quarrel with him is a sin.
->
-> jis dhan kā tum garab karat hau, so dhan kiseh na āp\
-> The wealth you take pride in belongs to no one.
->
-> khin meh chhod jāi bikhiā ras, tau lāgai pachhutāp 1\
-> In an instant the taste of bikhiā leaves you, and then regret sets in.
->
-> jo tumre prabh hote suāmī har, tin ke jāpahu jāp\
-> Hari, who was your Prabhu and your master: say his name over.
->
-> updes karat nānak jan tum kau, jau sunahu tau jāi santāp 2 1 7\
-> Nanak the servant gives you this updesh: if you listen, your torment goes.
+Many women and men came, and great numbers sat near Sri Arjan. They made bandan and went off to their
+own houses; in this way some came while others went.[^47] In whatever village and town the news
+reached, the Sikhs and saṅgats all arrived. All of them met, and then went home. A great crowd
+gathered at Goindval.[^48]
 
-*Chaupai*
-
-"Prithia, listen. What pride is there in wealth, which forsakes a man and does not stay an instant
-for anyone? Regret is what is left behind. Quarrelling with a father brings no honour.[^42] Therefore
-do simran of Hari, Hari. Hold this good updesh. All the torments of body and mind are destroyed, and
-greed and grave sin take no hold again."[^43]
-
-Hearing it, Prithia was greatly galled again. "'Do simran of the Name of Hari, Hari, Gupal', having
-given the Guruship to the younger son, and dishonoured me in front of everyone.[^44] Seeing me fit
-only to be preached at, you have picked a fine moment to speak: 'Put the hope of Guruship out of
-your heart, and worship Hari, becoming a servant.'[^45] This updesh of yours I shall take up. Fine
-work you will make of carrying me across the ocean of existence. You do what is unfit and consider
-nothing. 'Do simran of Hari, Hari', is what you say now."[^46]
-
-Sri Ram Das heard those crooked words. *He will not turn back, however anyone restrains him. His one
-love is in the doing of wrong.* Then he composed another shabad and recited it.[^47]
-
-> *Sri Guru Granth Sahib, Raag Suhi, Mahalla 4; Ang 733.*
->
-> tinhī antar har ārādhiā, jin kau dhur likhiā likhat lilārā\
-> They have worshipped Hari within, on whose foreheads it was written from the beginning.
->
-> tin kī bakhīlī koī kiā kare, jin kā aṅg kare merā har kartārā\
-> What can anyone's backbiting do to them, whose side my Hari the Creator takes?
->
-> har har dhiāi man mere, man dhiāi har janam janam ke sabh dūkh nivāraṇhārā 1 rahāu\
-> Meditate on Hari, my mind; meditate, my mind, on Hari, the remover of the sufferings of birth after birth.
->
-> dhur bhagat janā kau bakhsiā har amrit bhagti bhaṇdārā\
-> From the beginning Hari granted his bhagats the amrit treasury of bhagti.
->
-> mūrakh hovai su un kī rīs kare, tis halat palat muhu kārā 2\
-> Whoever competes with them is a fool; his face is blackened in this world and the next.
->
-> se bhagat se sevkā, jinā har nām piārā\
-> They are the bhagats, they are the sevaks, to whom Hari's Name is dear.
->
-> tin kī sevā te har pāīai, sir nindak kai pavai chhārā 3\
-> Through their seva Hari is obtained, and ashes fall on the slanderer's head.
->
-> jis ghar virtī soī jāṇai, jagat gur nānak pūchh karahu bīchārā\
-> He in whose house it works, he alone knows it; ask Nanak, Guru of the world, and reflect.
->
-> chahu pīṛī ād jugād bakhīlī kinai na pāio, har sevak bhāi nistārā 4 2 9\
-> Through four generations, from the beginning of the ages, no one has gained by backbiting; deliverance comes by the servant's way.
-
-*Chaupai*
-
-"In him the liv of Hari is fixed within, for whom good fortune is written from the beginning. Sri
-Arjan's helper, always, is Hari the Creator, lord of the whole world.[^48] What backbiting can you do
-against him in whom the sweet liv of Hari is fixed? The bhagat's blessing too was seen from the
-beginning, and the amrit treasury of bhagti is in his use.[^49] Whoever competes with them is a fool.
-His face is blackened in this world and the next. He to whom Hari's Name and bhagti are dear is a
-servant, and through such men the light of Prabhu is obtained.[^50] Nothing comes to the slanderer's
-hand. Ashes fall on his head, and afterwards he repents. He in whose heart the liv of Hari is at
-work, he is the one who knows the Satguru's greatness.[^51]
-
-"Sri Nanak; Guru Angad, the moon; Sri Guru Amar Das, the root of ease: the fourth generation of the
-Guruship has reached me, and all the ages have watched it.[^52] By backbiting it did not come to your
-hand. The supreme state is gained by doing seva. That never once came near you. Filled with pride,
-your mind was steeped in deceit.[^53]
-
-"You took me for a man of little knowledge. You practised deceit, holding yourself great. Holding
-envy, you took the letters and hid them away, as an enemy would.[^54] We kept questioning you, and
-you would not admit it. Fearless, in bad mind, you swore an oath. You counted the fault of a false
-oath as nothing, and you went on taking me for one who did not know.[^55]
-
-"Without humility there is no seva. Where is seva? There is only great egotism. Shardhā is the great
-root of it all, and love is the sprout, the giver of ease.[^56] Seva is the bark, which makes it
-firm; vairāg the great branches, spreading wide; Hari's Name blossoms out of it as flowers; and in
-the sat saṅgat it sways, and is beautiful.[^57] The many virtues of daivī sampadā are its leaves,
-that mass of virtues strong with bibek. Ātam gyān hangs on it as beautiful fruit, with great anaṅd as
-the juice inside it.[^58]
-
-"A crore of kalpataru are not its equal. By Prabhu's grace one finds it within. Why writhe now, taking
-suffering on yourself? Without fortune, it does not come to hand.[^59] Even now, live always in
-accord. Take away hankār; let the mind be low."
-
-With such words Prithia was counselled, and much restrained from quarrelling.[^60]
+Three days passed in this manner, and shabad and kirtan went on in abundance. In the middle sat
+Mohri, the Elder and the rest, with Sri Arjan among them.[^49]
 
 ---
-*Thus in the Sri Gur Pratap Suraj Granth, in the second Ras, the twenty-second ansu, named "The
-Description of the Episode of Giving the Guruship to Sri Arjan".*
+*Thus in the Sri Gur Pratap Suraj Granth, in the second Ras, the twenty-fourth ansu, named "The
+Description of the Episode of Sri Ram Das's Going to Baikunth".*
 
 *Sri Gur Pratap Suraj Granth, Bhai Santokh Singh, 1843. Gurmukhi text of record from the Sankhep
 Teeka edition with the annotation of Bhai Vir Singh, 1927 to 1935; the project docs abbreviate him
-BVS. Cite as Ras 2.22.31.*
+BVS. Cite as Ras 2.24.11.*
 
 ---
 ### Notes
 
-[^1]: the Elder: Baba Buddha Ji, who had served the Gurus from Guru Nanak Sahib Ji's time and who installed each new Guru in turn. The word is capitalised where it designates him and left lowercase where it means an aged man. · anaṅd: bliss.
-[^2]: The chief jeweller is the Elder and the jewel is Sri Arjan; Bhai Vir Singh reads the appraising of this verse as his.
-[^3]: shrīfal: a coconut. · paise: copper coins; a coconut and five paise are the customary offering at an installation. · saṅgat: the gathered congregation.
-[^4]:
-[^5]: pardakshan: circling in reverence, with the honoured one kept on the right. · bibek: discernment.
-[^6]: tilak: the mark set on the forehead that installs a man in office.
-[^7]:
-[^8]:
-[^9]: bandan: bowing in salutation.
-[^10]:
-[^11]: Mahadev and Prithi: Prithi Chand and Mahadev, the two elder sons of Guru Ram Das Ji, of whom Sri Arjan was the youngest brother. Prithi Chand is called Prithia through the rest of the ansu. · bhram: delusion.
-[^12]:
-[^13]:
-[^14]: The mother is Bibi Bhani Ji, wife of Guru Ram Das Ji; the father whose words she remembers is her own father, Guru Amar Das Ji.
-[^15]: Sumeru: the golden world mountain of Indic cosmology, greatest of all peaks and proverbially immovable.
-[^16]: shabad: a hymn. · pad: one of the four stanzas a shabad is built of.
-[^17]: bhog: the completion of a composition or a reading.
-[^18]: seva: service given without return. · Sant: here the Guru, the holy one the seeker is brought to.
-[^19]: bāṇī: revealed utterance.
-[^20]: hankār: pride.
-[^21]:
-[^22]:
-[^23]: shardhā: trusting faith.
-[^24]:
-[^25]:
+[^1]: Bhani: Bibi Bhani Ji, daughter of Guru Amar Das Ji, wife of Guru Ram Das Ji and mother of Sri Arjan Dev Ji. · bandan: bowing in salutation.
+[^2]: sukh: ease, well being. · Gusain: lord, master; a name of the divine, used here for the Guru.
+[^3]:
+[^4]: Prithia is Prithi Chand, the eldest of Guru Ram Das Ji's three sons, who has just been passed over for the Guruship. · anaṅd: bliss.
+[^5]:
+[^6]:
+[^7]: Sodhi: the clan of Guru Ram Das Ji, and of every Guru after him.
+[^8]: prārabdh: the portion of past karam that has begun to bear fruit in this life and must be lived out.
+[^9]:
+[^10]: Buddha is Baba Buddha Ji, called the Elder through the rest of the ansu; Gurdas is Bhai Gurdas Ji, Bibi Bhani Ji's cousin, later the scribe of the Adi Granth. · tilak: the mark set on the forehead that installs a man in office, and so the one installed.
+[^11]: kusha: the sacred grass laid down for a ritual seat. · Baikunth: the heavenly abode.
+[^12]: devtā: a god. · Brahma, the creator of Indic cosmology; Narad, the divine sage who carries word between the worlds; Shambhu is Shiv. · bimān: a celestial chariot, and later in this ansu the bier built in its likeness.
+[^13]: Dhanad is Kuber, the god of wealth, and Barun is Varun, god of the waters; the guardians of the worlds are the lokpals, who hold the directions. · maṅgal: an auspicious event, and the singing that marks it.
+[^14]:
+[^15]: baoli: the stepped well at Goindval, the town on the Bipasha founded by Guru Amar Das Ji, who had it built. · saṅgat: the gathered congregation.
+[^16]: updesh: instruction.
+[^17]: Satnam: the True Name. · kirtan: the singing of sacred hymns. · bhajan: devotional recitation.
+[^18]: Her two brothers are Mohan and Mohri, the sons of Guru Amar Das Ji.
+[^19]:
+[^20]: darshan: sight of the sacred, and the being seen by it.
+[^21]: chandan: sandalwood.
+[^22]: Bipasha: the river Beas.
+[^23]: mandir: the building raised over Guru Amar Das Ji's place at Goindval, on the bank of the Beas; verse 33 calls the same place a dehura.
+[^24]: seva: service given without return; here, an assigned task in the work.
+[^25]: dahī: curd.
 [^26]:
 [^27]:
 [^28]:
 [^29]:
-[^30]:
-[^31]:
-[^32]:
-[^33]:
+[^30]: lājā: parched grain, scattered as an offering.
+[^31]: rabābī: a player of the rabab, of the hereditary line of musicians who sang for the Gurus. · vairāg: detachment from the world. · shabad: a hymn. · pauṛī: a stanza of a var, sung.
+[^32]: chaur: the whisk waved over what is honoured.
+[^33]: dehura: a memorial shrine.
 [^34]:
 [^35]:
 [^36]:
 [^37]:
-[^38]:
-[^39]:
+[^38]: kathā: discourse on scripture. · Mukand: a name of the divine, the giver of liberation.
+[^39]: kapal kriya: the breaking of the skull, performed some time after the fire is given.
 [^40]:
-[^41]: bikhiā: poison, and so worldly indulgence. · updesh: instruction.
-[^42]:
-[^43]: simran: remembrance, the repeating of the Name.
-[^44]: Gupal: a name of the divine, the sustainer of the earth.
+[^41]: tilāñjul: the offering of water and sesame made for the dead. · simran: remembrance, the repeating of the Name. · gurmat: the Guru's teaching taken as the rule of practice. · Bhai Vir Singh sets beside this the instruction the Second Guru gave at the end of his life, at Ras 1, Ansu 28, verse 13: "Whatever customs there are of the world and of the family, do none of them for me. Read and hear the praise, do simran of the Name, hold anaṅd and maṅgal, and give the body to fire for cremation." From that time, his reading is, gurmat was settled on this, and the performing of such rites no longer seems right.
+[^42]: parupkār: doing good for others.
+[^43]:
+[^44]:
 [^45]:
-[^46]:
-[^47]: amrit: the nectar of immortality. · bhagti: devotion; a bhagat is one who lives by it, and a sevak one who does seva.
-[^48]: liv: absorbed attachment, the mind held fast on one thing.
+[^46]: dhyān: sustained meditative attention.
+[^47]:
+[^48]:
 [^49]:
-[^50]:
-[^51]:
-[^52]: The fourth generation is Guru Ram Das Ji himself, who is speaking.
-[^53]:
-[^54]: The letters are the correspondence coming in to the Guru from the saṅgats, which Prithi Chand is said to have intercepted before it reached his father.
-[^55]:
-[^56]: Bhai Vir Singh's reading is that what Prithia calls seva, the running of the household and its management, was pride: he did it in pride, and there was no shardhā and no love in it at all, only greed for the seat, while Sri Arjan Dev Ji lived absorbed in the liv of the Name and in love of the Satguru.
-[^57]: vairāg: detachment from the world. · sat saṅgat: the company of the true, the saṅgat as a spiritual body rather than a crowd.
-[^58]: daivī sampadā: divine wealth, the whole store of qualities belonging to a man turned toward God. · ātam gyān: knowledge of the self.
-[^59]: kalpataru: the wish granting tree of Indic cosmology, which gives whatever is asked of it. · A crore is ten million.
-[^60]:
