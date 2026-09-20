@@ -1,31 +1,231 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Gurmukhi:wght@400;600&display=swap');
 
-/* Gurmukhi falls back per-glyph to Noto Serif Gurmukhi; English stays Lora. */
+/* ---------------------------------------------------------------------------
+   reading.css — the reading surface.
+
+   Everything a reader can change lives in the four variables below. reader.js
+   writes them onto <html> from the Reader panel; the values here are the
+   defaults a first-time visitor gets.
+   --------------------------------------------------------------------------- */
+
 :root {
+  --reader-font: "Lora";
+  --reader-measure: 42rem;
+  --reader-grid: 68rem;
+  --reader-scale: 1;
+  --reader-leading: 1.85;
+  --reader-align: left;
+  --reader-pad: 1.25rem;
+
+  /* Gurmukhi always falls back per-glyph to Noto Serif Gurmukhi. */
+  --reader-stack: var(--reader-font), "Noto Serif Gurmukhi", Georgia, serif;
   --md-text-font: "Lora", "Noto Serif Gurmukhi", Georgia, serif;
 }
 
-/* Long-form reading: narrower measure, more air between lines. */
-.md-content__inner {
-  max-width: 42rem;
-  margin: 0 auto;
-  font-size: 1.02rem;
-  line-height: 1.85;
+/* ---------------------------------------------------------------------------
+   1. Colour schemes
+   --------------------------------------------------------------------------- */
+
+/* Night: a true black page, not slate grey. */
+[data-md-color-scheme="slate"] {
+  --md-hue: 0;
+  --md-default-bg-color:           #000000;
+  --md-default-bg-color--light:    #0d0d0d;
+  --md-default-bg-color--lighter:  #1a1a1a;
+  --md-default-bg-color--lightest: #262626;
+  --md-default-fg-color:           hsla(0, 0%, 100%, 0.88);
+  --md-default-fg-color--light:    hsla(0, 0%, 100%, 0.60);
+  --md-default-fg-color--lighter:  hsla(0, 0%, 100%, 0.30);
+  --md-default-fg-color--lightest: hsla(0, 0%, 100%, 0.12);
+  --md-code-bg-color:              #101010;
+  --md-code-fg-color:              hsla(0, 0%, 100%, 0.86);
+  --md-footer-bg-color:            #000000;
+  --md-footer-bg-color--dark:      #000000;
+}
+[data-md-color-scheme="slate"] body,
+[data-md-color-scheme="slate"] .md-main,
+[data-md-color-scheme="slate"] .md-container {
+  background-color: #000;
 }
 
-/* The Sri Mukhvaak blocks. */
+/* Sepia: layered on top of the light scheme, so nothing else has to change. */
+body[data-reader-tint="sepia"] {
+  --md-default-bg-color:           #f4ecd8;
+  --md-default-bg-color--light:    #efe5cd;
+  --md-default-bg-color--lighter:  #e9dcc0;
+  --md-default-bg-color--lightest: #e2d3b3;
+  --md-default-fg-color:           #3a3226;
+  --md-default-fg-color--light:    #6b5f4c;
+  --md-default-fg-color--lighter:  #9b8e78;
+  --md-default-fg-color--lightest: #cdbfa6;
+  --md-code-bg-color:              #ece1c7;
+  --md-footer-bg-color:            #e9dcc0;
+  --md-footer-bg-color--dark:      #e2d3b3;
+  background-color: #f4ecd8;
+}
+
+/* ---------------------------------------------------------------------------
+   2. Chrome that should disappear into the page
+   --------------------------------------------------------------------------- */
+
+.md-header {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  box-shadow: none;
+  transition: transform .25s cubic-bezier(.1,.7,.1,1), background-color .25s;
+}
+.md-header--shadow { box-shadow: none; }
+.md-header__title { font-weight: 500; }
+.md-header__topic { opacity: .82; }
+
+/* Search field has to be drawn in, now that the bar has no colour of its own. */
+.md-search__form {
+  background-color: var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+}
+.md-search__form:hover { background-color: var(--md-default-fg-color--lighter); }
+.md-search__input { color: var(--md-default-fg-color); }
+.md-search__input::placeholder,
+.md-search__icon { color: var(--md-default-fg-color--light); }
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form {
+  background-color: var(--md-default-bg-color);
+}
+
+/* Mobile drawer heading, which is normally painted in the primary colour. */
+.md-nav--primary .md-nav__title {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  box-shadow: none;
+}
+.md-nav--primary .md-nav__title .md-nav__button { color: inherit; }
+
+.md-footer { background-color: var(--md-default-bg-color); }
+.md-footer-meta { background-color: var(--md-default-bg-color); }
+.md-footer__link { opacity: .8; }
+.md-copyright { color: var(--md-default-fg-color--lighter); }
+
+/* ---------------------------------------------------------------------------
+   3. Collapsible sidebars
+   --------------------------------------------------------------------------- */
+
+/* Only on wide screens: below that the left sidebar IS the mobile drawer and
+   the right one is already gone, so collapsing them would break navigation. */
+@media screen and (min-width: 76.25em) {
+  body.reader-no-nav .md-sidebar--primary { display: none; }
+}
+@media screen and (min-width: 60em) {
+  body.reader-no-toc .md-sidebar--secondary { display: none; }
+}
+
+/* With a sidebar gone the article should re-centre, not drift. */
+.md-content { min-width: 0; }
+
+/* ---------------------------------------------------------------------------
+   4. The text itself
+   --------------------------------------------------------------------------- */
+
+/* The theme caps the whole layout at 61rem; let it grow with the measure the
+   reader has chosen, so a wide setting has somewhere to go. */
+.md-main__inner.md-grid { max-width: max(61rem, var(--reader-grid)); }
+
+.md-typeset.md-content__inner {
+  max-width: var(--reader-measure);
+  margin: 0 auto;
+  padding-left: var(--reader-pad);
+  padding-right: var(--reader-pad);
+  font-family: var(--reader-stack);
+  font-size: calc(1.02rem * var(--reader-scale));
+  line-height: var(--reader-leading);
+  text-align: var(--reader-align);
+  text-wrap: pretty;
+}
+.md-typeset.md-content__inner > p { hyphens: auto; }
+body[data-reader-align="left"] .md-typeset.md-content__inner > p { hyphens: manual; }
+
+/* The theme pins the article against whichever sidebar is showing. Undo that:
+   the column of text is centred in whatever room it has. */
+.md-sidebar--primary:not([hidden]) ~ .md-content > .md-content__inner.md-typeset,
+.md-sidebar--secondary:not([hidden]) ~ .md-content > .md-content__inner.md-typeset {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Headings stay left-aligned even when the prose is justified. */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 { text-align: left; }
+
+.md-typeset h1 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--md-default-fg-color);
+}
+.md-typeset h2 {
+  font-weight: 500;
+  line-height: 1.35;
+  margin-top: 1.6em;
+}
+.md-typeset h3 { font-weight: 500; }
+
+/* Verse numbers, sung-metre labels and the colophon sit quieter. */
+.md-typeset hr + p em { color: var(--md-default-fg-color--light); }
+.md-typeset p > strong:first-child { font-weight: 600; opacity: .72; }
+
+/* ---------------------------------------------------------------------------
+   5. Gurbani quotations
+   The Sri Mukhvaak blocks are the most important lines on the page, so they
+   share the page's own background and carry more weight than the prose, never
+   less. No grey box.
+   --------------------------------------------------------------------------- */
+
 .md-typeset blockquote {
+  background: none;
+  border: 0;
+  border-radius: 0;
+  margin: 1.7em 0;
+  color: var(--md-default-fg-color);
+  font-size: 1.03em;
+  line-height: calc(var(--reader-leading) + 0.1);
+}
+
+/* The theme writes its blockquote rule behind a [dir] selector, so ours has to
+   match that weight to win. */
+[dir] .md-typeset blockquote {
   border-left: 3px solid var(--md-accent-fg-color);
-  background: var(--md-code-bg-color);
-  padding: 0.8rem 1.2rem;
-  border-radius: 2px;
+  border-right: 0;
+  padding: 0.1rem 0 0.1rem 1.15rem;
+}
+[dir="rtl"] .md-typeset blockquote {
+  border-left: 0;
+  border-right: 3px solid var(--md-accent-fg-color);
+  padding: 0.1rem 1.15rem 0.1rem 0;
+}
+.md-typeset blockquote,
+.md-typeset blockquote p,
+.md-typeset blockquote li,
+.md-typeset blockquote strong,
+.md-typeset blockquote em { color: inherit; }
+
+/* Full strength — a touch above the surrounding prose. */
+[data-md-color-scheme="default"] .md-typeset blockquote { color: #000; }
+[data-md-color-scheme="slate"]   .md-typeset blockquote { color: #fff; }
+body[data-reader-tint="sepia"]   .md-typeset blockquote { color: #241d13; }
+
+/* The citation line that opens each block stays a note, not the scripture. */
+.md-typeset blockquote > p:first-child > em:only-child {
+  display: block;
+  font-size: .86em;
+  line-height: 1.55;
+  letter-spacing: .01em;
+  color: var(--md-default-fg-color--light);
 }
 .md-typeset blockquote h3 { margin-top: 0; font-size: 0.95rem; letter-spacing: 0.04em; }
 
-/* Verse numbers and colophon sit quieter than the prose. */
-.md-typeset hr + p em { color: var(--md-default-fg-color--light); }
+/* ---------------------------------------------------------------------------
+   6. Footnote markers and their popup
+   --------------------------------------------------------------------------- */
 
-/* Footnote markers and their popup. */
 .md-typeset .footnote-ref { text-decoration: none; font-weight: 600; }
 .md-typeset .footnote-ref.fn-open { background: var(--md-accent-fg-color); color: #fff; border-radius: 3px; }
 .fn-popup {
@@ -40,7 +240,277 @@
   border: 1px solid var(--md-default-fg-color--lightest);
   border-left: 3px solid var(--md-accent-fg-color);
   border-radius: 3px;
-  box-shadow: 0 6px 24px rgba(0,0,0,.18);
+  box-shadow: 0 6px 24px rgba(0,0,0,.28);
 }
 .fn-popup p { margin: 0; }
 .fn-popup p + p { margin-top: .5rem; }
+
+/* ---------------------------------------------------------------------------
+   7. Phone layout — margins like a book, not like a browser
+   --------------------------------------------------------------------------- */
+
+@media screen and (max-width: 76.1875em) {
+  :root { --reader-pad: 1.5rem; }
+}
+@media screen and (max-width: 44.9375em) {
+  :root { --reader-pad: 1.45rem; }
+  .md-typeset.md-content__inner {
+    padding-top: .4rem;
+    padding-bottom: 3.6rem;
+  }
+  .md-typeset h1 { font-size: 1.5rem; line-height: 1.3; }
+}
+
+/* ---------------------------------------------------------------------------
+   8. Reader panel
+   --------------------------------------------------------------------------- */
+
+.rdr-fab {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 18;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.rdr-fab button {
+  width: 2.6rem;
+  height: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 50%;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color--light);
+  font: 600 .92rem/1 var(--reader-stack);
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0,0,0,.18);
+  transition: color .15s, border-color .15s, opacity .2s;
+}
+.rdr-fab button:hover { color: var(--md-accent-fg-color); border-color: var(--md-accent-fg-color); }
+.rdr-fab button[aria-pressed="true"] { color: var(--md-accent-fg-color); border-color: var(--md-accent-fg-color); }
+.rdr-fab svg { width: 1.15rem; height: 1.15rem; fill: currentColor; }
+
+.rdr-panel {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: calc(max(1rem, env(safe-area-inset-bottom)) + 3.2rem);
+  z-index: 19;
+  width: 20.5rem;
+  max-width: calc(100vw - 2rem);
+  max-height: min(78vh, 40rem);
+  overflow-y: auto;
+  padding: 1rem 1.1rem 1.15rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0,0,0,.30);
+  font-family: var(--md-text-font-family, system-ui, sans-serif);
+  font-size: .72rem;
+}
+.rdr-panel[hidden] { display: none; }
+
+.rdr-row { margin-bottom: .95rem; }
+.rdr-row:last-child { margin-bottom: 0; }
+.rdr-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: .4rem;
+  font-size: .64rem;
+  font-weight: 600;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+.rdr-label span:last-child { font-weight: 400; letter-spacing: 0; text-transform: none; }
+
+.rdr-seg { display: flex; gap: .3rem; }
+.rdr-seg button {
+  flex: 1;
+  padding: .42rem .2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--md-default-fg-color--light);
+  font: inherit;
+  font-size: .7rem;
+  cursor: pointer;
+}
+.rdr-seg button:hover { border-color: var(--md-default-fg-color--lighter); }
+.rdr-seg button[aria-pressed="true"] {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+  font-weight: 600;
+}
+
+.rdr-panel select {
+  width: 100%;
+  padding: .45rem .5rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-size: .72rem;
+}
+.rdr-panel input[type="range"] { width: 100%; accent-color: var(--md-accent-fg-color); }
+
+.rdr-switch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .3rem 0;
+  cursor: pointer;
+}
+.rdr-switch span { color: var(--md-default-fg-color); }
+.rdr-switch input { accent-color: var(--md-accent-fg-color); width: 1rem; height: 1rem; }
+.rdr-note { margin: .45rem 0 0; font-size: .64rem; line-height: 1.5; color: var(--md-default-fg-color--lighter); }
+.rdr-reset {
+  width: 100%;
+  margin-top: .2rem;
+  padding: .45rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--md-default-fg-color--light);
+  font: inherit;
+  font-size: .68rem;
+  cursor: pointer;
+}
+.rdr-reset:hover { color: var(--md-accent-fg-color); border-color: var(--md-accent-fg-color); }
+.rdr-hr { height: 1px; margin: .9rem 0; background: var(--md-default-fg-color--lightest); border: 0; }
+
+@media screen and (max-width: 59.9375em) {
+  .rdr-fab .rdr-navbtn,
+  .rdr-panel .rdr-desktop { display: none; }
+}
+
+@media screen and (max-width: 44.9375em) {
+  .rdr-panel {
+    right: .6rem;
+    left: .6rem;
+    width: auto;
+    max-width: none;
+    bottom: calc(max(.6rem, env(safe-area-inset-bottom)) + 3.2rem);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   9. Paragraph mode
+   One block of the text at a time, centred, with everything else out of the
+   way. Arrow keys, space, or the buttons move between them.
+   --------------------------------------------------------------------------- */
+
+body.rdr-para .md-header,
+body.rdr-para .md-sidebar,
+body.rdr-para .md-footer,
+body.rdr-para .md-content__inner > .md-source-file,
+body.rdr-para .md-typeset .footnote,
+body.rdr-para .md-typeset .headerlink { display: none !important; }
+
+body.rdr-para .md-main__inner { margin-top: 0; }
+body.rdr-para .md-typeset.md-content__inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding-top: 3.2rem;
+  padding-bottom: 6rem;
+}
+/* Two collapsing spacers centre the block vertically when it fits, and give up
+   their space when it doesn't, so a long paragraph scrolls instead of being cut
+   off at the top and bottom. */
+body.rdr-para .md-typeset.md-content__inner::before,
+body.rdr-para .md-typeset.md-content__inner::after {
+  content: "";
+  display: block;
+  flex: 1 1 0;
+  min-height: 0;
+  height: auto;
+  margin: 0;
+}
+body.rdr-para .md-typeset.md-content__inner > * { display: none; }
+body.rdr-para .md-typeset.md-content__inner > .rdr-unit-on {
+  display: block;
+  animation: rdr-fade .22s ease;
+}
+body.rdr-para .md-typeset.md-content__inner > .rdr-unit-on:first-child,
+body.rdr-para .md-typeset.md-content__inner > h1.rdr-unit-on,
+body.rdr-para .md-typeset.md-content__inner > h2.rdr-unit-on,
+body.rdr-para .md-typeset.md-content__inner > h3.rdr-unit-on { margin-top: 0; }
+
+@keyframes rdr-fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+.rdr-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: .7rem 1rem calc(.7rem + env(safe-area-inset-bottom));
+  background: var(--md-default-bg-color);
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  font-family: var(--md-text-font-family, system-ui, sans-serif);
+  font-size: .7rem;
+  color: var(--md-default-fg-color--light);
+}
+.rdr-bar[hidden] { display: none; }
+.rdr-bar button {
+  min-width: 2.4rem;
+  height: 2.2rem;
+  padding: 0 .7rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-size: .95rem;
+  cursor: pointer;
+}
+.rdr-bar button:hover:not(:disabled) { color: var(--md-accent-fg-color); border-color: var(--md-accent-fg-color); }
+.rdr-bar button:disabled { opacity: .3; cursor: default; }
+.rdr-bar .rdr-count { min-width: 5rem; text-align: center; font-variant-numeric: tabular-nums; }
+.rdr-bar .rdr-exit { font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; }
+
+/* Lift the floating buttons clear of the paragraph bar. */
+body.rdr-para .rdr-fab { bottom: calc(max(1rem, env(safe-area-inset-bottom)) + 4.4rem); }
+body.rdr-para .rdr-fab .rdr-navbtn { display: none; }
+
+.rdr-progress {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 2px;
+  z-index: 21;
+  background: var(--md-accent-fg-color);
+  transition: width .22s ease;
+}
+.rdr-progress[hidden] { display: none; }
+
+/* Tap zones: left third goes back, right third goes on. Pointer only. */
+.rdr-tap {
+  position: fixed;
+  top: 0;
+  bottom: 3.6rem;
+  width: 22%;
+  z-index: 17;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.rdr-tap[hidden] { display: none; }
+.rdr-tap--prev { left: 0; }
+.rdr-tap--next { right: 0; }
+
+@media print {
+  .rdr-fab, .rdr-panel, .rdr-bar, .rdr-tap, .rdr-progress { display: none !important; }
+}
