@@ -1,7 +1,7 @@
 # Sikh Literature
 
 English translations of Sikh historical texts, published at
-<https://cakravue.github.io/sikhliterature/>.
+<https://dhariwald.github.io/sikhliterature/>.
 
 The site rebuilds itself every time you commit. Give it about a minute.
 
