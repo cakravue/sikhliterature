@@ -1,6 +1,12 @@
 # Rut 1, Ansu 25
 ## The discussion at home; the Ranjit Nagara
 
+Questions: 
+1. What is Mata Gujri’s advice to her son, and her reasoning?
+2. Who speaks up in response, and what does he say?
+3. What response does the Guru give to the masands & Mata Gujri Ji
+
+
 *Dohra*
 
 **[1]** Sri Satguru rose at first light, and washed and bathed. He went first to his mother, made his bow to her, and sat down.
