@@ -3,7 +3,7 @@
 ## The sakhi of the tenth Patshah is written
 ### (sikh ubāran dushat saṅghāran: to save the Sikhs and destroy the wicked)
 
-**[1-2]** After that the enmity of the Turks (Bhangu's word for a Muslim of any origin) toward the
+**[1-2]** After that the enmity of the Turks toward the
 tenth Patshah[^1] grew. The hill chiefs, the rajas of the Shivalik states around Anandpur, carried
 tales against him, and a spark went out from it and spread into a blaze. The qazis (judges of Islamic
 law) and the Mughals schooled the Turks and made them forget the undertakings Babur had given.[^2]
