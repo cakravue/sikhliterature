@@ -63,7 +63,7 @@ both times, and Anand and Rehras, and the bani of Chandi to be read standing. Ri
 bind the turban; keep your weapons about you all eight pahars (the whole of the day and the night).
 Drink the amrit and go out hunting, so that the art of arms is kept up.
 
-**[18-19]** Eat goat that has been killed with a single stroke, and go nowhere near carrion or meat
+**[18-19]** Eat goat that has been killed with a single stroke (jhatka), and go nowhere near carrion or meat
 killed in the Muslim way. Cherish the hair of your head, and do not cut a hair of it with a razor.
 Let the rites for the ancestors go, and keep your attention at the Guru's feet. Whoever falls into
 crooked ways, lay a tankhāh (the penance the Panth lays on an offender) on him without fail.
