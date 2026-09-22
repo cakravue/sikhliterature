@@ -1,6 +1,10 @@
 # Rut 1, Ansu 24
 ## Having the Ranjit Nagara made
 
+Questions: 
+1. Raja Ratan Rai’s gift to Guru Gobind Singh 2. Define - nagara:  3. Who opposed having a nagara made, and why?  Who did they approach to convince the Guru? 4. (Who is) Raja Bhim Chand :
+
+
 *Dohra*
 
 **[1]** Raja Ratan Rai[^1] went away, having made his gift of the elephant, and the thought of the Guru left him overcome even as he went. He praised that gentle form, and his praise was great.
