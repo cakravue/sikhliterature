@@ -1,4 +1,8 @@
 # Panth Prakash, Episode 14
+**Questions**: 
+1. Summarize Murray's point in verses [2-5], and then Rattan Singh's answer.
+2. On whom did the Guru decide to bestow Patshahi (sovereignty)? 
+3. What did the Guru assess about the psychology of the Sikhs, and what was the solution?
 
 ## Another telling
 ### (khālso hovai khud khudā: the Khalsa shall be khud khudā, his own lord)
