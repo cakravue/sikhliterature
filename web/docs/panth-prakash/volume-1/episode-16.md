@@ -20,7 +20,7 @@ will get. What is offered at the gurdwaras, let the Singhs themselves eat; what 
 on to me.* And he sent letters out to the saṅgats: come and take the pāhul of the khanda.
 
 **[7]** *Drink the pāhul of the khanda and be made fierce, and now take the killing of the Turks
-(Bhangu's word for a Muslim of any origin) in hand. Power has come into the pāhul of the khanda: the
+in hand. Power has come into the pāhul of the khanda: the
 Turks will run, and the Panth will stand.*
 
 **[8]** What the Satguru said, the Majhails (the Sikhs of the Majha, the country round Amritsar) took
