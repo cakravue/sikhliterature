@@ -1,5 +1,7 @@
 # Panth Prakash, Episode 13
 
+**Questions:** 1. What was Murray's question, and Rattan Singh's reply?
+
 ## The sakhi of the tenth Patshah is written
 ### (sikh ubāran dushat saṅghāran: to save the Sikhs and destroy the wicked)
 
