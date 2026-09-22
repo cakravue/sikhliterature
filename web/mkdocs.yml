@@ -52,3 +52,4 @@ extra_css:
 extra_javascript:
   - assets/footnotes.js
   - assets/reader.js
+  - assets/audio.js

@@ -514,3 +514,150 @@ body.rdr-para .rdr-fab .rdr-navbtn { display: none; }
 @media print {
   .rdr-fab, .rdr-panel, .rdr-bar, .rdr-tap, .rdr-progress { display: none !important; }
 }
+
+/* ---------------------------------------------------------------------------
+   9. Audio reading bar (audio.js)
+   Present only on readings that have a recording. It floats at the bottom of
+   the screen; the Aa buttons, the paragraph bar and the page footer all move
+   up to make room for it.
+   --------------------------------------------------------------------------- */
+
+:root { --aud-h: 3.3rem; }
+
+.aud-src[hidden] { display: none; }
+.md-typeset audio.aud-src { display: block; width: 100%; margin: 2rem 0 0; }
+
+.aud-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  padding: 0 1rem env(safe-area-inset-bottom);
+  background: var(--md-default-bg-color);
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 -4px 18px rgba(0,0,0,.08);
+  color: var(--md-default-fg-color--light);
+  font-family: var(--md-text-font-family, system-ui, sans-serif);
+  font-size: .66rem;
+}
+body[data-reader-tint="sepia"] .aud-bar { background: var(--md-default-bg-color); }
+
+.aud-inner {
+  display: flex;
+  align-items: center;
+  gap: .35rem;
+  height: var(--aud-h);
+  max-width: 46rem;
+  margin: 0 auto;
+  /* keep the controls clear of the round Aa button on the right */
+  padding-right: 3.2rem;
+}
+
+.aud-btn {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--md-default-fg-color--light);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.aud-btn:hover { color: var(--md-accent-fg-color); }
+.aud-btn svg { width: 1.3rem; height: 1.3rem; fill: currentColor; overflow: visible; }
+.aud-btn text { font: 700 6.5px/1 system-ui, sans-serif; fill: currentColor; }
+.aud-back svg, .aud-fwd svg { width: 1.45rem; height: 1.45rem; }
+
+.aud-play {
+  width: 2.45rem;
+  height: 2.45rem;
+  background: var(--md-accent-fg-color);
+  color: #fff;
+}
+.aud-play:hover { color: #fff; filter: brightness(1.08); }
+.aud-play svg { width: 1.25rem; height: 1.25rem; }
+
+.aud-time {
+  flex: none;
+  min-width: 2.6rem;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.aud-volwrap { flex: none; display: flex; align-items: center; }
+.no-volume .aud-volwrap { display: none; }
+
+/* Range inputs: a thin track filled up to the thumb. */
+.aud-seek, .aud-vol {
+  --aud-fill: 0%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 1.6rem;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.aud-seek { flex: 1 1 auto; min-width: 3rem; }
+.aud-vol  { width: 4.5rem; }
+.aud-seek::-webkit-slider-runnable-track, .aud-vol::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(to right,
+    var(--md-accent-fg-color) var(--aud-fill),
+    var(--md-default-fg-color--lightest) var(--aud-fill));
+}
+.aud-seek::-moz-range-track, .aud-vol::-moz-range-track {
+  height: 4px; border-radius: 2px; background: var(--md-default-fg-color--lightest);
+}
+.aud-seek::-moz-range-progress, .aud-vol::-moz-range-progress {
+  height: 4px; border-radius: 2px; background: var(--md-accent-fg-color);
+}
+.aud-seek::-webkit-slider-thumb, .aud-vol::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px; height: 12px; margin-top: -4px;
+  border: 0; border-radius: 50%;
+  background: var(--md-accent-fg-color);
+}
+.aud-seek::-moz-range-thumb, .aud-vol::-moz-range-thumb {
+  width: 12px; height: 12px; border: 0; border-radius: 50%;
+  background: var(--md-accent-fg-color);
+}
+.aud-seek:focus-visible, .aud-vol:focus-visible, .aud-btn:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color); outline-offset: 2px;
+}
+
+.aud-bar.is-error .aud-btn, .aud-bar.is-error .aud-seek { opacity: .35; pointer-events: none; }
+
+/* Make room for the bar. */
+body.has-audio .md-footer,
+body.has-audio .md-main { padding-bottom: calc(var(--aud-h) + env(safe-area-inset-bottom)); }
+body.has-audio .md-footer { margin-bottom: 0; }
+body.has-audio .rdr-fab { bottom: calc(var(--aud-h) + max(.6rem, env(safe-area-inset-bottom))); }
+body.has-audio .rdr-panel { bottom: calc(var(--aud-h) + max(.6rem, env(safe-area-inset-bottom)) + 3.2rem); }
+body.has-audio .aud-inner { padding-right: 0; }
+
+/* In paragraph mode the audio bar sits just above the paragraph bar. */
+body.has-audio.rdr-para .aud-bar { bottom: calc(3.6rem + env(safe-area-inset-bottom)); padding-bottom: 0; }
+body.has-audio.rdr-para .rdr-fab { bottom: calc(var(--aud-h) + 4.4rem + max(.6rem, env(safe-area-inset-bottom))); }
+body.has-audio.rdr-para .rdr-tap { bottom: calc(3.6rem + var(--aud-h)); }
+body.has-audio.rdr-para .md-typeset.md-content__inner { padding-bottom: calc(6rem + var(--aud-h)); }
+
+@media screen and (max-width: 44.9375em) {
+  .aud-bar { padding-left: .5rem; padding-right: .5rem; }
+  .aud-inner { gap: .15rem; }
+  .aud-vol { display: none; }          /* phones: mute button only */
+  .aud-time { min-width: 2.3rem; font-size: .62rem; }
+}
+@media screen and (max-width: 22em) {
+  .aud-dur { display: none; }
+}
+
+@media print {
+  .aud-bar { display: none !important; }
+}

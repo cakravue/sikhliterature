@@ -8,6 +8,7 @@ the sidebar -- nothing empty to click into.
 Nothing in here needs editing to add readings; edit contents.yml instead.
 '''
 
+import html as _html
 import os
 import re
 import yaml
@@ -26,6 +27,22 @@ def _uri(text, div, n):
     return text['slug'] + '/' + div['slug'] + '/' + unit + '-' + str(n).zfill(2) + '.md'
 
 
+# Audio readings live under docs/audio/, mirroring the reading's own path:
+#   docs/suraj-prakash/ras-2/ansu-24.md  ->  docs/audio/suraj-prakash/ras-2/ansu-24.m4a
+# Any of these formats will do; the first one found is used.
+AUDIO_DIR = 'audio'
+AUDIO_EXTS = ('.m4a', '.mp3', '.aac', '.ogg', '.opus', '.wav', '.flac', '.webm')
+_AUDIO_TYPES = {'.m4a': 'audio/mp4', '.mp3': 'audio/mpeg', '.aac': 'audio/aac',
+                '.ogg': 'audio/ogg', '.opus': 'audio/ogg', '.wav': 'audio/wav',
+                '.flac': 'audio/flac', '.webm': 'audio/webm'}
+
+
+def _audio_for(src_uri):
+    '''Candidate audio paths (relative to docs/) for a reading's .md path.'''
+    stem = src_uri[:-3] if src_uri.endswith('.md') else src_uri
+    return [AUDIO_DIR + '/' + stem + ext for ext in AUDIO_EXTS]
+
+
 def _total(text):
     return sum(d['to'] - d['from'] + 1 for d in text['divisions'])
 
@@ -42,6 +59,9 @@ def on_files(files, config):
 
     def posted(src_uri):
         return os.path.exists(os.path.join(docs_dir, src_uri))
+
+    def voiced(src_uri):
+        return any(os.path.exists(os.path.join(docs_dir, a)) for a in _audio_for(src_uri))
 
     def numbers(text, div):
         '''The readings of this division that have actually been written.'''
@@ -89,8 +109,9 @@ def on_files(files, config):
             for n in live:
                 name = unit + ' ' + str(n)
                 leaf = slug + '-' + str(n).zfill(2) + '.md'
-                index.append('- [' + name + '](' + div['slug'] + '/' + leaf + ')')
-                division.append('- [' + name + '](' + leaf + ')')
+                tag = ' &middot; *audio*' if voiced(_uri(text, div, n)) else ''
+                index.append('- [' + name + '](' + div['slug'] + '/' + leaf + ')' + tag)
+                division.append('- [' + name + '](' + leaf + ')' + tag)
 
             index.append('')
             division += ['', '[All of ' + text['title'] + '](../index.md)']
@@ -139,7 +160,25 @@ def _has_subsections(markdown):
     return h2 > 1 or h3 > 1
 
 
+def _find_audio(page, files):
+    '''(url, mime) of this reading's audio, or None.
+
+    An `audio:` line in the page's front matter wins (a full URL, for audio
+    hosted somewhere else); otherwise docs/audio/<same path>.<ext> is used.'''
+    given = page.meta.get('audio')
+    if given:
+        ext = os.path.splitext(str(given).split('?')[0])[1].lower()
+        return str(given), _AUDIO_TYPES.get(ext, '')
+    for path in _audio_for(page.file.src_uri):
+        f = files.get_file_from_path(path)
+        if f is not None:
+            ext = os.path.splitext(path)[1].lower()
+            return f.url_relative_to(page.file), _AUDIO_TYPES.get(ext, '')
+    return None
+
+
 def on_page_markdown(markdown, page, config, files):
+    page.meta['_audio'] = _find_audio(page, files)
     if _has_subsections(markdown):
         return markdown
     hide = list(page.meta.get('hide') or [])
@@ -147,6 +186,19 @@ def on_page_markdown(markdown, page, config, files):
         hide.append('toc')
     page.meta['hide'] = hide
     return markdown
+
+
+def on_page_content(html, page, config, files):
+    '''Attach the audio reading, if there is one. audio.js turns this plain
+    <audio> element into the floating player; without JavaScript it still
+    works as the browser's own player.'''
+    found = page.meta.get('_audio')
+    if not found:
+        return html
+    url, mime = found
+    kind = ' type="' + mime + '"' if mime else ''
+    return (html + '\n<audio class="aud-src" controls preload="metadata">'
+            '<source src="' + _html.escape(url, quote=True) + '"' + kind + '></audio>\n')
 
 
 def on_nav(nav, config, files):
