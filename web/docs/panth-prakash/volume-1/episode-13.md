@@ -7,7 +7,7 @@
 tenth Patshah[^1] grew. The hill chiefs, the rajas of the Shivalik states around Anandpur, carried
 tales against him, and a spark went out from it and spread into a blaze. The qazis (judges of Islamic
 law) and the Mughals schooled the Turks and made them forget the undertakings Babur had given.[^2]
-*When did Hindus ever give Hind away? Our own prophets gave it to us.* So they made the thing up out
+*When did the Hindus ever give Hind away? Our own prophets gave it to us.* So they made the thing up out
 of their own mouths.
 
 **[3]** Guru Gobind Singh heard it, and anger rose in him, and he made the Panth to destroy the
