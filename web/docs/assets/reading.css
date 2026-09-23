@@ -442,6 +442,12 @@ body.rdr-para .md-typeset.md-content__inner > .rdr-unit-on:first-child,
 body.rdr-para .md-typeset.md-content__inner > h1.rdr-unit-on,
 body.rdr-para .md-typeset.md-content__inner > h2.rdr-unit-on,
 body.rdr-para .md-typeset.md-content__inner > h3.rdr-unit-on { margin-top: 0; }
+body.rdr-para .md-typeset.md-content__inner > .rdr-unit-first { margin-top: 0; }
+
+/* A Gurmukhi verse sits directly above its translation on the same slide,
+   with its own line breaks kept and only a small gap before the English. */
+body.rdr-para .md-typeset.md-content__inner > p.rdr-gm { margin-bottom: 0; }
+body.rdr-para .md-typeset.md-content__inner > p.rdr-gm + p.rdr-unit-on:not(.rdr-gm) { margin-top: .6em; }
 
 @keyframes rdr-fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 
