@@ -152,18 +152,41 @@
       }
       if (tag === 'hr' || el.classList.contains('footnote') || el.classList.contains('md-source-file')) continue;
       if (!el.textContent.trim()) continue;
+      var gm = isGurmukhi(el);
+      el.classList.toggle('rdr-gm', gm);
       buf.push(el);
-      if (!/^h[1-6]$/.test(tag)) { units.push(buf); buf = []; }
+      /* Headings, metre labels and Gurmukhi verses lead into the block that
+         follows them, so a verse and its translation share one slide. */
+      if (!/^h[1-6]$/.test(tag) && !gm && !isLabel(el)) { units.push(buf); buf = []; }
     }
     if (buf.length) units.push(buf);
+  }
+
+  /* A paragraph written mostly in Gurmukhi script. */
+  function isGurmukhi(el) {
+    if (el.tagName.toLowerCase() !== 'p') return false;
+    var t = el.textContent;
+    var g = (t.match(/[\u0A00-\u0A7F]/g) || []).length;
+    var l = (t.match(/[A-Za-z]/g) || []).length;
+    return g > 0 && g > l;
+  }
+
+  /* A short line that is nothing but italics, e.g. *Dohra* or *Chaupai*. */
+  function isLabel(el) {
+    if (el.tagName.toLowerCase() !== 'p' || el.children.length !== 1) return false;
+    var c = el.children[0];
+    return c.tagName.toLowerCase() === 'em' &&
+           c.textContent.trim() === el.textContent.trim() &&
+           el.textContent.trim().length < 40;
   }
 
   function show(i) {
     if (!units.length) return;
     at = Math.max(0, Math.min(units.length - 1, i));
     var host = article();
-    host.querySelectorAll('.rdr-unit-on').forEach(function (e) { e.classList.remove('rdr-unit-on'); });
+    host.querySelectorAll('.rdr-unit-on').forEach(function (e) { e.classList.remove('rdr-unit-on', 'rdr-unit-first'); });
     units[at].forEach(function (e) { e.classList.add('rdr-unit-on'); });
+    units[at][0].classList.add('rdr-unit-first');
     count.textContent = (at + 1) + ' / ' + units.length;
     prevBtn.disabled = at === 0;
     nextBtn.disabled = at === units.length - 1;
@@ -188,7 +211,7 @@
       show(start);
     } else {
       var keep = units.length ? units[at][0] : null;
-      article().querySelectorAll('.rdr-unit-on').forEach(function (e) { e.classList.remove('rdr-unit-on'); });
+      article().querySelectorAll('.rdr-unit-on').forEach(function (e) { e.classList.remove('rdr-unit-on', 'rdr-unit-first'); });
       if (keep) keep.scrollIntoView({ block: 'center' });
     }
     return on;
