@@ -133,7 +133,7 @@ he had the sacred thread and the tilak[^28] taken off. (12)
 
 Then the Satguru gave them teaching:\
 "Have no dealings with the Minas or the masaṅds,[^29]\
-or with those who kill their daughters, the Ramraias,[^30] or those who smoke the hookah;\
+or with those who kill their daughters, the Ramraias,[^30] or those who smoke;\
 whoever mixes with these will come to grief. (13)
 
 ਜਥਾ ਸ਼ਕਤ ਗੁਰ ਗੋਲਕ ਪਾਯੋ ॥ ਕੜਾਹ ਕਰਾਇ ਖਾਲਸੇ ਛਕਾਯੋ ॥\
@@ -159,7 +159,7 @@ they set kard and chakkar[^33] on their heads and repeated "Akal" aloud. (15)
 
 He told them further to read the Guru's sacred verse:\
 "Recite Japu and Jap[^34] at both times of day,\
-and recite Anand and Rahiras,[^35]\
+and recite Anand and Rehras,[^35]\
 and read the sacred verse of Chandi standing. (16)
 
 ਦੋਇ ਵੇਲੇ ਉਠ ਬੰਧਯੋ ਦਸਤਾਰੇ ॥ ਪਹਰ ਆਠ ਰਖੱਯੋ ਸ਼ਸਤ੍ਰ ਸੰਭਾਰੇ ॥\
