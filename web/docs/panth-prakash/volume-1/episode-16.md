@@ -18,7 +18,7 @@ by fives, by fifties, by hundreds, Singhs came together and stood ready every da
 ਦੱਖਣ ਪੂਰਬ ਉੱਤਰ ਵਾਇ ॥ ਪੱਛਮ ਮਧ ਭੀ ਦਏ ਘਲਾਇ ॥੨॥
 
 So the Satguru gave all the work to the Khalsa,\
-and made the Khalsa mukhtiyar[^2] in every place.\
+and made the Khalsa mukhtiyar (an agent with full powers)[^2] in every place.\
 To the south, the east and the north,\
 and to the west and the middle too, he sent them out. (2)
 
