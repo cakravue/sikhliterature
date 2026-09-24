@@ -2,6 +2,9 @@
 
 ## Bhai Kalyana Reaches the Raja of Mandi
 
+Questions: 1. Who is Bhai Kalyana, where did he go, and for what purpose?
+2. What did he say about worshipping stones?
+
 *Dohra* ਦੋਹਰਾ
 
 ਰਾਮਦਾਸ ਗੁਰ ਪਿਤਾ ਕੋ, ਸਿਮਰਤਿ ਬਾਕ ਹਮੇਸ਼।\
