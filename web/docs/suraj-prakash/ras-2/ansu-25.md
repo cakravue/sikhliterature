@@ -2,6 +2,9 @@
 
 ## The Turban Is Tied; the Friendship of Prithia and Sulhi
 
+Questions: Define the following two terms, and describe how it is related to Prithi Chand: 
+Dastar bandi, Sulhi Khan
+
 *Dohra*
 
 ਸੋਰਹ ਸਤ ਅਠਤੀਸ ਮਹਿਂ, ਪਾਵਸੁ ਭਾਦ੍ਰੋਂ ਮਾਸ।\
