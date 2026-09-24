@@ -180,7 +180,7 @@ he pointed out other realms. (20)
 ਜੋ ਸੋਚੀ ਸ੍ਰੀ ਸੁਖ ਸਿੰਘੈ ਸੋ ਮੈਂ ਕਹੂੰ ਪ੍ਰਗਟਾਇ ॥੨੧॥
 
 Much of this is written in the Gur Bilas;[^13] I have set down only an outline;\
-what Sri Sukh Singh held back from saying, that I bring into the open. (21)
+what Sri Sukha Singh held back from saying, that I bring into the open. (21)
 
 *Chaupai* ਚੌਪਈ
 
@@ -214,7 +214,7 @@ listen, dear brothers who follow the Guru. (24)
 ਪ੍ਰਿਥਮ ਵਧਾਯੋ ਖਾਲਸੈ ਫਿਰ ਦਈਓ ਦੰਗੋ ਮਚਾਇ ॥੨੫॥
 
 Then the Satguru gave his command, instructing the Majhails:\
-"First make the Khalsa grow, then stir up strife." (25)
+"First make the Khalsa grow, then stir up danga (conflict)." (25)
 
 **Nihang Singhs[^14]** ਨਿਹੰਗ ਸਿੰਘ
 
@@ -248,8 +248,8 @@ ghee, flour, salt, whatever he would eat. (28)
 ਹੋਇ ਸਿਖਨੀ ਮੰਨੈ ਸੁ ਬਾਤ ॥ ਹਾਜਰ ਕਰਦੈ ਵਹੁ ਜਿਤਕੁ ਚਹਾਤ ॥੨੯॥
 
 He would call out, "The Nihangs have come!\
-Sikh woman, open the door, and don't hold back!"\
-Being a Sikh woman, she would do as he said,\
+Open the door, O Sikhni (Sikh woman), and don't hold back!"\
+Being a Sikhni, she would do as he said,\
 and bring out as much as he wanted. (29)
 
 *Dohra* ਦੋਹਰਾ
@@ -258,7 +258,7 @@ and bring out as much as he wanted. (29)
 ਦੌੜ ਦੌੜ ਸਿਖਨੀ ਦਿਵੈਂ ਸਿੰਘਨ ਕੋ ਕਰ ਬੋਲ ॥੩੦॥
 
 In this way Sikhs would go every day and stand at Singhs' houses, asking and searching them out,\
-and at a word the Sikh women would run and give to the Singhs. (30)
+and at a word the Sikhnis would run and give to the Singhs. (30)
 
 *Chaupai* ਚੌਪਈ
 
@@ -343,7 +343,7 @@ nazrānā must be laid on the villages. (39)
 ਲੋਕ ਨਜ਼ਰਾਨੋ ਨਹਿਂ ਦੇਹੈਂ ਸਿੰਘ ਲੇਵੈਂ ਦੰਗੋ ਮਚਾਇ ॥\
 ਤੁਰਕਨ ਪਹਿ ਤਿਨ ਜਾਇਕੈ ਦਈ ਫਰਯਾਦ ਸੁਨਾਇ ॥੪੦॥
 
-When people would not give nazrānā, the Singhs would take it by stirring up strife,\
+When people would not give nazrānā, the Singhs would take it by stirring up danga,\
 and so the people went to the Turks and laid their complaint before them. (40)
 
 *Chaupai* ਚੌਪਈ
@@ -427,7 +427,7 @@ the Majhails had no fear of dying. (49)
 ਰਹਤ ਖੂਬ ਬੁਧ ਖੂਬ ਲਖ ਬਾਣੀ ਖੂਬ ਪੜ੍ਹਾਇ ॥\
 ਸੁਲਤਾਨੀ ਦਿਵਾਨੀ ਛੋਡ ਆਇ ਸਤਿਗੁਰ ਪੰਥ ਰਲਵਾਹਿ ॥੫੦॥
 
-Seeing that their discipline was excellent, their understanding excellent, and the sacred verse they recited excellent,\
+Seeing that their rehat (discipline) was excellent, their understanding excellent, and the Bani (sacred verse) they recited excellent,\
 men left service under rulers and in the revenue office, and came and joined the Satguru's Panth.[^21] (50)
 
 *Chaupai* ਚੌਪਈ
