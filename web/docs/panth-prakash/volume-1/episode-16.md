@@ -87,7 +87,7 @@ and dressed them in clothes of every kind. (9)
 
 The Satguru would sit in the middle on a cot set out for him,\
 with the Singhs standing all around, bearing arms.\
-As Kanh[^8] sits resplendent among the cowherd girls,\
+As Krishna[^8] sits resplendent among the Gopis (cowherd girls),\
 so the Satguru shone among the Singhs. (10)
 
 ਕਵੈਦ ਕਰਾਵੈਂ ਸਿੰਘਨ ਦੁੜਾਇ ॥ ਕਿਤੈ ਚੁਫੇਰ ਦੇਖੈਂ ਖੜਵਾਇ ॥\
