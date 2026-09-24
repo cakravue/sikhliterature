@@ -2,6 +2,11 @@
 
 ## Bhim Chand's Envoy Comes to Ask for the Elephant
 
+What activities did Guru Gobind Singh Ji regularly practise while at Anandpur?
+Why did Raja Bhim Chand want to get the elephant Prasadi from Guru Ji?
+What plan did Bhim Chand and his advisers make to obtain the elephant?
+What instructions did Bhim Chand give to his envoy before he went to Anandpur?
+When the envoy arrived at Anandpur, how did Guru Ji's household receive him?
 *Dohra* ਦੋਹਰਾ
 
 ਇਸ ਪ੍ਰਕਾਰ ਸ਼੍ਰੀ ਸਤਿਗੁਰੂ ਕਰਤਿ ਅਨੇਕ ਬਿਲਾਸ।\
